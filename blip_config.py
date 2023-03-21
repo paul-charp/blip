@@ -16,3 +16,6 @@ BLIP_PLUGIN_PATH = [
 BLIP_CONTEXT_ROOT = [
     './blip_dev_root'  # Root for testing during development
 ]
+
+# BLIP_DEFAULT_SOURCE
+# BLIP_DEFAULT_RESOLVER

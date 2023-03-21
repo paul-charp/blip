@@ -1,3 +1,5 @@
 .venv
 .vscode
 .env
+.rnd
+/blip_dev_root

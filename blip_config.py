@@ -5,7 +5,6 @@ Environment variable BLIP_CONFIG_FILE should point to this file.
 
 => idea: make a commands() function, useful ?
     Eventually make all values env-overridable
-        make config file stackables
 """
 
 BLIP_PLUGIN_PATH = [
@@ -13,9 +12,12 @@ BLIP_PLUGIN_PATH = [
     './blip/plugins',
 ]
 
-BLIP_CONTEXT_ROOT = [
+BLIP_CONTEXT_PATH = [
     './blip_dev_root'  # Root for testing during development
 ]
 
-# BLIP_DEFAULT_SOURCE
-# BLIP_DEFAULT_RESOLVER
+BLIP_DEFAULT_SOURCE = 'DefaultContextSource'
+
+BLIP_DEFAULT_RESOLVER = 'DefaultContextResolver'
+
+BLIP_LOG_LEVEL = 'INFO'

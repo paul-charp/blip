@@ -1,0 +1,3 @@
+import blip
+
+print(blip)

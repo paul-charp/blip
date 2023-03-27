@@ -1,0 +1,10 @@
+{
+    "BlipPlugins": {
+        "DefaultResolver": {
+            "name": "DefaultResolver",
+            "type": "ContextResolver",
+            "entry_point": "./default_resolver.py",
+            "config": {}
+        }
+    }
+}
